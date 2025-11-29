@@ -73,30 +73,30 @@ This repository represents a professional implementation of Java Stream API, dem
   
 ## 📁 Project Structure
 Java-StreamOperations/
-├── 📂 src/
-│ ├── 📂 data/ # Data providers and datasets
-│ │ ├── EmployeesData.java
-│ │ ├── NamesData.java
-│ │ ├── NestedWords.java
-│ │ ├── NumbersData.java
-│ │ └── StudentsData.java
-│ │
-│ ├── 📂 models/ # Domain models and entities
-│ │ ├── Employee.java
-│ │ ├── Employee.class
-│ │ ├── Student.java
-│ │ └── Student.class
-│ │
-│ ├── 📂 tasks/ # Stream operation implementations
-│ │ ├── AdvancedOperations.java
-│ │ ├── BasicStreamOperations.java
-│ │ ├── CollectorsAndGrouping.java
-│ │ ├── IntermediateStreamTasks.java
-│ │ ├── NumericStreams.java
-│ │ └── OptionalMapFlatMap.java
-│ │
-│ └── 📄 Main.java # Application entry point
-│
-└── 📄 README.md
+└── src/
+    ├── data/               # Data providers and datasets 
+    │   ├── EmployeesData.java
+    │   ├── NamesData.java
+    │   ├── NestedWords.java
+    │   ├── NumbersData.java
+    │   └── StudentsData.java
+    │
+    ├── models/             # Domain models and entities 
+    │   ├── Employee.class   
+    │   ├── Employee.java
+    │   ├── Student.class   
+    │   └── Student.java
+    │
+    ├── tasks/              # Stream operation implementations / examples
+    │   ├── AdvancedOperations.java
+    │   ├── BasicStreamOperations.java
+    │   ├── CollectorsAndGrouping.java
+    │   ├── IntermediateStreamTasks.java
+    │   ├── NumericStreams.java
+    │   └── OptionalMapFlatMap.java
+    │
+    └── Main.java           # Application entry point 
+```
+
 
 
